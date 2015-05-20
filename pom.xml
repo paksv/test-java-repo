@@ -7,6 +7,27 @@
     <groupId>tc-demo-repo</groupId>
     <artifactId>java-repo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    
+    <name>TCDemo maven project</name>
+
+    <url>http://www.jetbrains.com/teamcity</url>
+
+<dependencies>
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.8.1</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 </project>
