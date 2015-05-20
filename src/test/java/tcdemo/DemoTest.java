@@ -9,10 +9,6 @@ public class DemoTest {
         // test
     }
 
-    public void test3(){
-        // test
-    }
-
 
     public void test2_fail(){
         Assert.fail();
