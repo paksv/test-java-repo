@@ -10,6 +10,6 @@ public class DemoTest {
     }
 
     public void test2_fail(){
-//        Assert.fail(); hello2
+//        Assert.fail(); hello3
     }
 }
