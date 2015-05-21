@@ -11,6 +11,6 @@ public class DemoTest {
 
 
     public void test2_fail(){
-        Assert.fail();
+//        Assert.fail();
     }
 }
