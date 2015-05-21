@@ -15,6 +15,6 @@ public class DemoTest {
     }
 
     public void test3(){
-        System.out.println("Hello");
+        System.out.println("Hello!");
     }
 }
