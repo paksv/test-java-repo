@@ -14,7 +14,7 @@ public class DemoTest {
 //        Assert.fail();
     }
 
-    public void test5(){
+    public void test6(){
         System.out.println("Hello!");
     }
 }
