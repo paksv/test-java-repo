@@ -11,6 +11,10 @@ public class DemoTest {
 
 
     public void test2_fail(){
-//        Assert.fail(); 2
+//        Assert.fail();
+    }
+
+    public void test3(){
+        System.out.println("Hello");
     }
 }
