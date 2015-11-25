@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>tc-demo-repo</groupId>
-    <artifactId>java-repo</artifactId>
+    <groupId>tc-demo</groupId>
+    <artifactId>multi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>TCDemo maven project</name>
+    <name>multi</name>
 
     <url>http://www.jetbrains.com/teamcity</url>
 
@@ -20,6 +20,12 @@
         <version>6.8.1</version>
         <scope>test</scope>
     </dependency>
+    <dependency>
+        <groupId>tc-demo</groupId>
+        <artifactId>shared</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
 </dependencies>
 
 <build>
@@ -27,6 +33,10 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.16</version>
+            <configuration>
+                <testFailureIgnore>true</testFailureIgnore>
+            </configuration>
         </plugin>
     </plugins>
 </build>

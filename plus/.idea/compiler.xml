@@ -22,15 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="multi" />
-        <module name="multi (1)" />
-        <module name="plus" />
+        <module name="test-java-repo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="multi" target="1.5" />
-      <module name="multi (1)" target="1.5" />
-      <module name="plus" target="1.5" />
+      <module name="test-java-repo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
