@@ -7,13 +7,18 @@ import org.testng.annotations.Test;
 @Test
 public class MultiTest {
 
-    public void test1(){
-        // test
+    private MultiAction myAction;
+
+    @BeforeMethod
+    public void setUp(){
+        myAction = new MultiAction();
     }
 
+    public void test2_multi_2(){
+        Assert.assertEquals(4, myAction.action(2, 2));
+    }
 
-    public void test2_fail(){
-
-        Assert.assertEquals(4, 1);
+    public void test2_multi_3(){
+        Assert.assertEquals(4, myAction.action(2, 3));
     }
 }
