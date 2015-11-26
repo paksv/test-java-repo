@@ -14,11 +14,12 @@ public class MultiTest {
         myAction = new MultiAction();
     }
 
-    public void test2_multi_2(){
+/*    public void test2_multi_2(){
         Assert.assertEquals(4, myAction.action(2, 2));
     }
 
     public void test2_multi_3(){
         Assert.assertEquals(4, myAction.action(2, 3));
     }
+*/
 }
