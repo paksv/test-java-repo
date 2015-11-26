@@ -1,0 +1,1 @@
+mvn install:install-file -DcreateChecksum=true -Dpackaging=jar -Dfile=shared/shared-1.0-SNAPSHOT.jar -DgroupId=tc-demo -DartifactId=shared -Dversion=1.0-SNAPSHOT
