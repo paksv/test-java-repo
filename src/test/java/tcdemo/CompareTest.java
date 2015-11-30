@@ -15,7 +15,7 @@ public class CompareTest {
     }
 
     public void test2_ignoreCase(){
-        Assert.assertEquals(0, myComparer.compare("a", "A"));
+        Assert.assertEquals(1, myComparer.compare("a", "A"));
     }
 
 }
