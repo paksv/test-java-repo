@@ -22,4 +22,8 @@
     </dependency>
 </dependencies>
 
+    <build>
+        <defaultGoal>package</defaultGoal>
+    </build>
+
 </project>
