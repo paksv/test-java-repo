@@ -2,10 +2,10 @@ package tcdemo;
 
 import java.io.IOException;
 
-public class Multi {
+public class Compare {
 
     public static void main(String[] args) throws IOException {
-        new Executor().execute(args, new MultiAction(), Multi.class.getName());
+        new Executor().execute(args, new WindowsPathComparer(), Compare.class.getName());
     }
 
 }
