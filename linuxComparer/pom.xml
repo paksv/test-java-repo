@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tc-demo</groupId>
-    <artifactId>multi</artifactId>
+    <artifactId>linuxComparer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>multi</name>
+    <name>linuxComparer</name>
 
     <url>http://www.jetbrains.com/teamcity</url>
 

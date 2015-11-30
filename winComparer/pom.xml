@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tc-demo</groupId>
-    <artifactId>plus</artifactId>
+    <artifactId>winComparer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>plus</name>
+    <name>winComparer</name>
 
     <url>http://www.jetbrains.com/teamcity</url>
 
