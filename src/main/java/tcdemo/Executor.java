@@ -1,27 +1,16 @@
 package tcdemo;
 
+import java.util.Comparator;
+
 public class Executor {
 
-    public void execute(String[] args, Action action, String mainClassName) {
-        boolean validArgs = true;
-        if (args.length == 0){
-            validArgs = false;
-        }
-        int num1 = Integer.MIN_VALUE+1;
-        int num2 = Integer.MIN_VALUE+1;
-        try {
-            num1 = Integer.parseInt(args[0]);
-            num2 = Integer.parseInt(args[1]);
-        } catch (Exception ex){
-            validArgs = false;
-        }
-
-        if (!validArgs){
-            System.err.printf("Usage tcdemo.%s <number1> <number2>%n", mainClassName);
+    public void execute(String[] args, Comparator<String> action, String mainClassName) {
+        if (args.length < 2){
+            System.err.printf("Usage tcdemo.%s <String1> <String2>%n", mainClassName);
             System.exit(2);
         }
 
-        System.out.println(action.action(num1, num2));
+        System.out.println(action.compare(args[0], args[1]));
     }
 
 }
