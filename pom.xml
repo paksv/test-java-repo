@@ -39,7 +39,7 @@
             <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
                 <systemProperties>
-                    <caseSensitive>true</caseSensitive>
+                    <caseSensitive>${env.CASE_SENSITIVE}</caseSensitive>
                 </systemProperties>
             </configuration>
         </plugin>
