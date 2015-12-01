@@ -39,8 +39,7 @@
             <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
                 <systemProperties>
-                    <name>caseSensitive</name>
-                    <value>true</value>
+                    <caseSensitive>true</caseSensitive>
                 </systemProperties>
             </configuration>
         </plugin>
