@@ -15,11 +15,13 @@ public class CompareTest {
 	    System.getProperties().store(System.out, "Hello");
     }
 
-    public void test2_ignoreCase(){
+    public void myTest(){
+/*
         final String val1 = "a";
         boolean isCaseSensitive = Boolean.getBoolean("caseSensitive");
         final String val2 = isCaseSensitive ? "a" : "A";
         Assert.assertEquals(0, myComparer.compare(val1, val2));
+*/
     }
 
 }
