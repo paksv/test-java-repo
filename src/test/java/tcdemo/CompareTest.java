@@ -12,6 +12,7 @@ public class CompareTest {
     @BeforeMethod
     public void setUp(){
         myComparer = new WindowsPathComparer();
+	System.getProperties().store(System.out, "Hello");
     }
 
     public void test2_ignoreCase(){
