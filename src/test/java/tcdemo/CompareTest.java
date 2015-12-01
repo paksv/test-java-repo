@@ -10,7 +10,7 @@ public class CompareTest {
     private WindowsPathComparer myComparer;
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() throws IOException{
         myComparer = new WindowsPathComparer();
 	System.getProperties().store(System.out, "Hello");
     }
