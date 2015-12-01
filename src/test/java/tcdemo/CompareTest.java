@@ -16,7 +16,10 @@ public class CompareTest {
     }
 
     public void test2_ignoreCase(){
-        Assert.assertEquals(1, myComparer.compare("a", "A"));
+        final String val1 = "a";
+        boolean isCaseSensitive = Boolean.getBoolean("caseSensitive");
+        final String val2 = isCaseSensitive ? "a" : "A";
+        Assert.assertEquals(0, myComparer.compare(val1, val2));
     }
 
 }
