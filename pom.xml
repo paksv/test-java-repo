@@ -38,6 +38,10 @@
             <version>2.16</version>
             <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
+                <systemProperties>
+                    <name>caseSensitive</name>
+                    <value>true</value>
+                </systemProperties>
             </configuration>
         </plugin>
     </plugins>

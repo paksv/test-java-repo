@@ -7,12 +7,12 @@ import org.testng.annotations.Test;
 @Test
 public class CompareTest {
 
-    private WindowsPathComparer myComparer;
+    private LinuxPathComparer myComparer;
 
     @BeforeMethod
     public void setUp() throws java.io.IOException{
-        myComparer = new WindowsPathComparer();
-	System.getProperties().store(System.out, "Hello");
+        myComparer = new LinuxPathComparer();
+	    System.getProperties().store(System.out, "Hello");
     }
 
     public void test2_ignoreCase(){
