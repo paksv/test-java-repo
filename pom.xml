@@ -12,6 +12,9 @@
     <name>linuxComparer</name>
 
     <url>http://www.jetbrains.com/teamcity</url>
+    <properties>
+        <skipTest>true</skipTest>
+    </properties>
 
 <dependencies>
     <dependency>
@@ -38,7 +41,7 @@
             <version>2.16</version>
             <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-                <skipTests>true</skipTests>
+                <skipTests>${skipTest}</skipTests>
                 <systemProperties>
                     <caseSensitive>${env.CASE_SENSITIVE}</caseSensitive>
                 </systemProperties>
