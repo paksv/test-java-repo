@@ -38,7 +38,6 @@
             <version>2.16</version>
             <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-                <skipTests>true</skipTests>
                 <systemProperties>
                     <caseSensitive>${env.CASE_SENSITIVE}</caseSensitive>
                 </systemProperties>
