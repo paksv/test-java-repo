@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Compare {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         new Executor().execute(args, new LinuxPathComparer(), Compare.class.getName());
     }
 
