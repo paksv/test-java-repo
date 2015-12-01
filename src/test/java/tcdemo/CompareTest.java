@@ -12,12 +12,13 @@ public class CompareTest {
     @BeforeMethod
     public void setUp() throws java.io.IOException{
         myComparer = new WindowsPathComparer();
-	System.getProperties().store(System.out, "Hello");
     }
 
     public void myTest(){
         boolean isCaseSensitive = Boolean.getBoolean("caseSensitive");
-        Assert.assertEquals(isCaseSensitive, myComparer.compare("a", "A") != 0);
+        final int compareResult = myComparer.compare("a", "A");
+        System.out.printf("isCaseSensitive: %b, compareResult: %d", isCaseSensitive, compareResult);
+        Assert.assertEquals(isCaseSensitive, compareResult != 0);
     }
 
 }
