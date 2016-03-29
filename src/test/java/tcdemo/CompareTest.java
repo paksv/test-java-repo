@@ -15,7 +15,7 @@ public class CompareTest {
     }
 
     public void myTest(){
-        Assert.fail("I'm failing");
+//        Assert.fail("I'm failing");
         boolean isCaseSensitive = Boolean.getBoolean("caseSensitive");
         final int compareResult = myComparer.compare("a", "A");
         System.out.printf("isCaseSensitive: %b, compareResult: %d", isCaseSensitive, compareResult);
