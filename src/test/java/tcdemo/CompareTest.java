@@ -13,6 +13,7 @@ public class CompareTest {
     public void setUp(){
         myAction = new CompareAction();
 	System.out.println("test");
+	System.out.println("test2");
     }
 
 }
