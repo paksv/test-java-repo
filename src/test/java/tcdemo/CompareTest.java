@@ -12,6 +12,7 @@ public class CompareTest {
     @BeforeMethod
     public void setUp(){
         myAction = new CompareAction();
+	System.out.println("test");
     }
 
 }
