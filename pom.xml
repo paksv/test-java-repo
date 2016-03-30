@@ -11,7 +11,7 @@
 
     <name>comparer</name>
 
-    <url>http://www.jetbrains.com/teamcity</url>
+    <url>http://www.jetbrains.com/teamcity/</url>
 
 <dependencies>
     <dependency>
