@@ -15,6 +15,7 @@ public class CompareTest {
     }
 
     public void myTest(){
+        System.out.println("##teamcity[buildNumber '1.2.3_{build.number}-ent']");
         Assert.fail("I'm failing");
         System.out.println("Hello");
         boolean isCaseSensitive = Boolean.getBoolean("caseSensitive");
