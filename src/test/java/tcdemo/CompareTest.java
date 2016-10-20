@@ -21,3 +21,4 @@ public class CompareTest {
 }
 New
 New
+New
